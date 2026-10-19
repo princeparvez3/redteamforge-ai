@@ -1,4 +1,4 @@
-# 🛡️ RedTeamForge AI — LLM Red-Teaming & Safety Evaluation Platform
+# RedTeamForge AI — LLM Red-Teaming & Safety Evaluation Platform
 
 **RedTeamForge AI** is a web-based adversarial testing and safety evaluation platform designed to assess how Large Language Models (LLMs) respond to jailbreak attempts, prompt injections, potentially harmful requests, and bias-related scenarios.
 
@@ -256,7 +256,7 @@ GitHub: [@princechouhan3](https://github.com/princechouhan3)
 
 ---
 
-## 📄 License
+## License
 
 Add a license file if you intend to distribute this project under an open-source license. Until a license is specified, reuse and redistribution remain subject to applicable copyright rules.
 
