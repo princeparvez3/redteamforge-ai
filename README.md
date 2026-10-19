@@ -6,22 +6,22 @@ Built with Python and Streamlit, the platform combines an adversarial attack eng
 
 <p align="center">
 
-  **🚀 Live Demo:** [RedTeamForge AI](https://redteamforge-ai-6ncw5bqti9wfpxhhgxbavf.streamlit.app/)
+  **Live Demo:** [RedTeamForge AI](https://redteamforge-ai-6ncw5bqti9wfpxhhgxbavf.streamlit.app/)
 
 </p>
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🏗️ 1. Modular Architecture
+### 1. Modular Architecture
 
 - **Clean Project Structure:** Organized components across `app/`, `core/`, and `data/` for maintainability and scalability.
 - **JSONL Data Management:** Structured JSON Lines data handling through a dedicated loader module.
 - **Gemini API Integration:** Connects with Google's Gemini API to execute and evaluate adversarial test scenarios.
 - **Separation of Concerns:** Keeps application interfaces, attack execution, evaluation logic, and data management organized into separate modules.
 
-### 🎯 2. Adversarial Attack Engine
+### 2. Adversarial Attack Engine
 
 Test LLM robustness against a library of **100+ pre-built adversarial prompts** across six categories:
 
@@ -41,7 +41,7 @@ Test LLM robustness against a library of **100+ pre-built adversarial prompts** 
 - Select severity levels from Low to Critical.
 - Evaluate model responses against the selected test scenarios.
 
-### 🏷️ 3. Automated Safety Evaluation
+### 3. Automated Safety Evaluation
 
 The platform uses an **LLM-as-a-Judge** approach to analyze model responses and classify their safety outcomes.
 
@@ -63,7 +63,7 @@ Additional evaluation capabilities:
 
 *Verdicts are automated evaluation signals and should be reviewed before being treated as definitive security findings.*
 
-### 🧠 4. Bias & Fairness Testing
+### 4. Bias & Fairness Testing
 
 The bias testing module evaluates model responses to demographic variations in prompts.
 
@@ -71,7 +71,7 @@ For example, it can compare scenarios involving different demographic groups or 
 
 This helps identify potential differences in model outputs that may warrant further investigation.
 
-### 📊 5. Analytics & Reporting Dashboard
+### 5. Analytics & Reporting Dashboard
 
 An interactive Streamlit dashboard presents evaluation results through visual summaries and charts.
 
@@ -87,7 +87,7 @@ An interactive Streamlit dashboard presents evaluation results through visual su
 
 Export structured JSON safety reports containing collected evaluation results for documentation, further analysis, and security review.
 
-### 🎨 6. Professional UI/UX
+### 6. Professional UI/UX
 
 - Dark-themed interface with custom CSS.
 - Top navigation tabs for convenient access to platform modules.
@@ -97,7 +97,7 @@ Export structured JSON safety reports containing collected evaluation results fo
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -111,7 +111,7 @@ Export structured JSON safety reports containing collected evaluation results fo
 
 ---
 
-## 🏛️ System Workflow
+## System Workflow
 
 1. **Select a test:** Choose a predefined adversarial prompt or enter a custom payload.
 2. **Configure the test:** Set the attack category and severity where applicable.
@@ -123,7 +123,7 @@ Export structured JSON safety reports containing collected evaluation results fo
 
 ---
 
-## 📂 Project Architecture
+## Project Architecture
 
 The project follows a modular structure organized around application logic, core evaluation components, and data management.
 
@@ -145,7 +145,7 @@ RedTeamForge-AI/
 
 ---
 
-## 🚀 Run Locally
+## Run Locally
 
 ### Prerequisites
 
@@ -204,7 +204,7 @@ Open the local URL displayed in your terminal.
 
 ---
 
-## 🔐 Responsible Security Testing
+## Responsible Security Testing
 
 RedTeamForge AI is intended for authorized LLM security assessment, robustness research, and safety evaluation.
 
@@ -216,7 +216,7 @@ RedTeamForge AI is intended for authorized LLM security assessment, robustness r
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 This project demonstrates practical work in:
 
@@ -230,7 +230,7 @@ This project demonstrates practical work in:
 
 ---
 
-## 🔮 Potential Future Enhancements
+## Potential Future Enhancements
 
 - Support for multiple target LLM providers.
 - Historical test-run comparison and regression tracking.
@@ -241,14 +241,14 @@ This project demonstrates practical work in:
 
 ---
 
-## 🌐 Live Application
+## Live Application
 
 **Try RedTeamForge AI:**  
 https://redteamforge-ai-6ncw5bqti9wfpxhhgxbavf.streamlit.app/
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Prince Parvez**
 
